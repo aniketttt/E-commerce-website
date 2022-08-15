@@ -234,9 +234,8 @@ ul{
 }
 
 .menu-icon{
-	width: 25px;
-	margin-left: 15px;
-	display: none;
+	width: 35px;
+	margin: 10px;
 }
 
 /*----media query for menu------*/
