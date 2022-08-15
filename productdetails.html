@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>All Products | SampleStore</title>
+	<title>Details | E-commerce Website Design</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="menu.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,49 +11,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<div class="container">
-	    <div class="navbar">
-		    <div class="logo">
-			    <img src="images/logo.png" width="50px">
-		    </div>
-		    <nav>
-				<ul id="items">
-					<li> <a href="index.html">Home</a></li>
-					<li> <a href="products.html">Products</a></li>
-					<li> <a href="">About</a></li>
-					<li> <a href="">Contact</a></li>
-				</ul>
-			</nav>
-			<img src="images/cart.png" width="30px" height="30px">
-			<button onclick="myfun()" class="menu-icon">
-				<img src="images/menu.png" width="30px" height="25px" >
-			</button>
-	     </div>
-	</div>
-<!------------single product details------->
-<div class="small-container single-product">
-    <div class="row">
-        <div class="col-2">
-            <img src="images/gallery-1.jpg" width="100%" id="productimg">
-			<div class="small-img-row">
-				<div class="small-img-col">
-					<img src="images/gallery-1.jpg" width="100%" class="smallimg" 
-					onclick="myFunction(this)">
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/logo.png" width="50px">
 				</div>
-				<div class="small-img-col">
-					<img src="images/gallery-2.jpg" width="100%" class="smallimg" 
-					onclick="myFunction(this)">
-				</div>
-				<div class="small-img-col">
-					<img src="images/gallery-3.jpg" width="100%" class="smallimg" 
-					onclick="myFunction(this)">
-				</div>
-				<div class="small-img-col">
-					<img src="images/gallery-4.jpg" width="100%" class="smallimg" 
-					onclick="myFunction(this)">
-				</div>
+				<nav>
+					<ul id="items">
+						<li> <a href="index.html">Home</a></li>
+						<li> <a href="products.html">Products</a></li>
+						<li> <a href="">About</a></li>
+						<li> <a href="">Contact</a></li>
+					</ul>
+				</nav>
+				<button onclick=mycart()>
+					<img src="images/cart.png" width="30px" height="30px">
+				</button>
+				<button onclick="myfun()" class="menu-icon">
+					<img src="images/menu.png" width="30px" height="25px" >
+				</button>
 			</div>
-        </div>
+		</div>
+	</div>
+<!------------details of products-------->	
         <div class="col-2">
             <p>Home / T-shirt</p>
             <h1>Red Printed T-shirt by Store</h1>
