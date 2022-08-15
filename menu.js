@@ -6,4 +6,12 @@ function myfun(){
 	} else {
 		menu.style.display="none";
 	}
-}
+};
+
+function myFunction(imgs) {
+	var expandImg = document.getElementById("productimg");
+	var imgText = document.getElementsByClassName("smallimg");
+	expandImg.src = imgs.src;
+	imgText.innerHTML = imgs.alt;
+	expandImg.parentElement.style.display = "block";
+  };
